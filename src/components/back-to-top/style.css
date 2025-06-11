@@ -1,0 +1,28 @@
+.back_button {
+  transition: 0.3s all;
+  position: fixed;
+  background: #103a47;
+  color: #fff;
+  padding: 10px;
+  font-size: 25px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  z-index: 999999;
+}
+.show_back_button {
+  bottom: 20px;
+  right: 20px;
+}
+.hide_back_button {
+  right: 20px;
+  bottom: -80px;
+}
+
+@media (max-width: 850px) {
+  .back_button {
+    font-size: 23px;
+    height: 48px;
+  }
+}

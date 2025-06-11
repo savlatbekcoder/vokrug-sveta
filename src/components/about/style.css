@@ -1,0 +1,23 @@
+#about {
+  background: rgb(24, 109, 135);
+  background: radial-gradient(
+    circle,
+    rgba(24, 109, 135, 1) 0%,
+    rgba(16, 58, 71, 1) 100%
+  );
+  width: 100%;
+  color: #fff;
+  .row {
+    
+    .side:first-child {
+      text-align: center;
+    }
+    img {
+      width: 80%;
+    }
+    h2 {
+      font-weight: 400;
+      margin: 5px 0;
+    }
+  }
+}

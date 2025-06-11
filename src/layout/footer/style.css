@@ -1,0 +1,26 @@
+footer {
+  width: 100%;
+  background: rgb(24, 109, 135);
+  background: radial-gradient(
+    circle,
+    rgba(24, 109, 135, 1) 0%,
+    rgba(16, 58, 71, 1) 100%
+  );
+  color: #fff;
+  .footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 2.5px 10px;
+    img {
+      width: 150px;
+    }
+  }
+}
+@media (max-width: 950px) {
+  .footer-row {
+    display: block !important;
+    padding: 10px !important;
+    text-align: center;
+  }
+}
