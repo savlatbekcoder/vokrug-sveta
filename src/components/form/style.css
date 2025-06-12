@@ -1,0 +1,31 @@
+.pur_form {
+  width: 100%;
+  input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100% !important;
+    border: 2px solid #000;
+    border-radius: 8px;
+    outline-color: black;
+  }
+  input::placeholder {
+    color: #000;
+  }
+  button {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 19px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+  }
+}
+.pur_row {
+  display: flex;
+  gap: 10px;
+  margin: -10px 0 0 0 !important;
+  justify-content: space-between;
+  align-items: center;
+}
