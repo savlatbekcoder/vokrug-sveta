@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
         <span>
           <span>
-            <b>savlatbekcoder.uz</b> - 2024&copy;
+            <b>www.vokrug-sveta.uz</b> - 2025&copy;
           </span>
           <span>
             {" "}

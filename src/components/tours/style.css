@@ -82,3 +82,19 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  .images_row {
+    grid-template-columns: repeat(2, 1fr);
+    img {
+      width: 100%;
+      height: 200px !important;
+      object-fit: cover !important;
+    }
+  }
+  .tour-card {
+    h2 {
+      padding: 20px 0;
+    }
+  }
+}

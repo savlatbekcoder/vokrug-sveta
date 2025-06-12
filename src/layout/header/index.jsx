@@ -41,7 +41,7 @@ const Header = () => {
               Home page
             </a>
             <a onClick={handleToggle} href="/#about">
-              About
+              About us
             </a>
             <a onClick={handleToggle} href="/#tours">
               Tours

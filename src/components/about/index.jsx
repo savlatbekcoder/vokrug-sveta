@@ -17,10 +17,10 @@ const About = () => {
               <b>Company name:</b> Vokrug Sveta
             </h2>
             <h2>
-              <b>Company head:</b> Kimdur Kimdurov Kimdur o'g'li
+              <b>Company head:</b> Zaikina Kristina Vyacheslavovna 
             </h2>
             <h2>
-              <b>Founded:</b> Iyul 2025
+              <b>Founded:</b> Iyun 2025
             </h2>
             <h2>
               <b>Legal form:</b> Limited liability company

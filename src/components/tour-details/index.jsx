@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import { tours } from "../../tour_data";
+import Form from "../form";
+
 // import GTranslateWidget from "../lang";
 
 function TourDetails() {
@@ -34,6 +36,8 @@ function TourDetails() {
             <img src={img} alt="" />
           ))}
         </div>
+        <br />
+        <Form />
       </div>
     </div>
   );

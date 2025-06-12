@@ -21,7 +21,7 @@ const Tours = () => {
             >
               <img src={tour.img} alt={tour.name} />
 
-              <h2 className="text-xl font-bold">
+              <h2>
                 <span>{tour.name}</span>{" "}
                 <span>
                   <IoOpenOutline />
